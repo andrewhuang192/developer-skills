@@ -1,0 +1,63 @@
+html, * {
+  font-family: helvetica;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 100%
+}
+
+body a {
+  font-size: 25px;
+  margin: 15px;
+}
+
+.editskill {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+div h3 {
+  margin: 25px 0px;
+}
+
+div button {
+  margin: 25px 0px;
+}
+
+.card-text {
+  font-size: 15px;
+}
+
+li a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #00B7FF;
+  font-size:large;
+}
+
+.btn.btn-outline-primary {
+  font-size: 25px;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+.delete-form button {
+  color: white;
+}
+li {
+  list-style: none;
+}
